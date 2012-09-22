@@ -1,6 +1,1 @@
-["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "ackbar.coffee", "ambush.coffee", 
-	"applause.coffee", "ascii.coffee", "chat.coffee", "coin.coffee", "commitmessage.coffee",
-	"decide.coffee", "fortune.coffee", "hangman.coffee", "hashing.coffee",
-	"insult.coffee", "invalid.coffee", "isup.coffee", "kittens.coffee", "meme_captain.coffee",
-	"meme_generator.coffee", "nice.coffee", "reddit-jokes.coffee", "reddit.coffee",
-	"roll.coffee", "walmart.coffee", "wat.coffee", "weather.coffee", "whos-turn.coffee"]
+["redis-brain.coffee", "tweet.coffee", "shipit.coffee"]
