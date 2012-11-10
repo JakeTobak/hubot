@@ -1,5 +1,6 @@
 # Description:
 #   Applause from Orson Welles
+#   Additional slow claps, applause added for effect
 #
 # Dependencies:
 #   None
@@ -14,5 +15,11 @@
 #   joshfrench
 
 module.exports = (robot) ->
+  gifs = ["http://i.imgur.com/9Zv4V.gif",
+          "http://i.imgur.com/GipiO.gif",
+          "http://i.imgur.com/FJBYZ.gif",
+          "http://i.imgur.com/fQfrB.gif",
+          "http://i.imgur.com/FnkWU.gif"]
   robot.hear /applau(d|se)|bravo|slow clap/i, (msg) ->
-    msg.send "http://i.imgur.com/9Zv4V.gif"
+    gif = gifs[Math.floor(Math.random() * gifs.length)]
+    msg.send gif
