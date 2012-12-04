@@ -8,17 +8,17 @@
 #   None
 #
 # Commands:
-#   hubot sleep <name> - put <name> to sleep
+#   hubot subdue <name> - put <name> to subdue
 #
 # Author:
 #   mimsy
 
 module.exports = (robot) ->
-  robot.respond /sleep (.*)/i, (msg) ->
+  robot.respond /subdue (.*)/i, (msg) ->
     name = msg.match[1].trim()
-    msg.send(sleep(name))
+    msg.send(subdue(name))
 
-sleep = (name) ->
+subdue = (name) ->
   methods[(Math.random() * methods.length) >> 0].replace(/{name}/, name);
 
 methods = [
