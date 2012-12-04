@@ -16,7 +16,7 @@
 punchinface = [
   "You are not awesome!",
   "A sigh is a soul that bursts.",
-  "Shut up and die please.",
+  "Shut up and die, please.",
   "Everyone dies in the same language.",
   "I never asked to be installed..."
 ]
