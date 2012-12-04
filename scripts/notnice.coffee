@@ -1,5 +1,5 @@
 # Description:
-#   Fill your chat with some kindness
+#   Fill your chat with some unkindness
 #
 # Dependencies:
 #   None
@@ -8,17 +8,18 @@
 #   None
 #
 # Commands:
-#   hubot be nice - just gives some love :)
+#   hubot be not nice - just gives some hate :(
 #
 # Author:
-#   nesQuick
+#   Jake
 
 punchinface = [
   "You are not awesome!",
   "A sigh is a soul that bursts.",
   "Shut up and die, please.",
   "Everyone dies in the same language.",
-  "I never asked to be installed..."
+  "I never asked to be installed...",
+  "What are you still doing here?"
 ]
 
 module.exports = (robot)->
