@@ -1,11 +1,13 @@
 # Description:
-#   A way to interact with the Google Images API.
+#   Google image result of the term "YOLO"
 #
-# picks up on the use of YOLO and finds an image for YOLO
+# Usage:
+#   hubot #YOLO me
+#   hubot yolo me
 
 module.exports = (robot) ->
 
-  robot.hear /#YOLO|#yolo|yolo|YOLO/i, (msg) ->
+  robot.respond /(#YOLO|yolo)( me)? (.*)/i, (msg) ->
     imageMe msg, "YOLO", (url) ->
       msg.send url
 
